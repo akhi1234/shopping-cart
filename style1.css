@@ -1,0 +1,189 @@
+        * {
+            box-sizing: border-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        body {
+            background-color: lightseagreen;
+        }
+        
+        .root {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            display: flex;
+            overflow-x: hidden;
+            overflow-y: auto;
+            max-width: 1088px;
+            max-height: 648px;
+            width: calc(100% - 64px);
+            height: calc(100% - 64px);
+            border-radius: 4px;
+            background-color: #ffffff;
+            transform: translate(-50%, -50%);
+        }
+        
+        .product-info {
+            width: 70%;
+            height: auto;
+            padding-left: 15px;
+            margin: 15px;
+            float: right;
+            background-color: white;
+        }
+        
+        .summary-info {
+            width: 30%;
+            padding-left: 15px;
+            margin: 15px;
+            float: left;
+            background-color: lightgray;
+            height: auto;
+        }
+        
+        hr {
+            margin-right: 10px;
+            color: lightgray;
+            width: auto;
+            padding: 0px;
+        }
+        
+        .product-info-name {
+            display: grid;
+            grid-template-columns: 2fr 1.5fr 1fr 0.5fr;
+            margin-right: 10px;
+            margin-top: 20px;
+            color: gray;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+        
+        .product-info-details {
+            display: grid;
+            grid-template-columns: 2fr 1.5fr 1fr 0.5fr;
+            margin-right: 10px;
+            margin-top: 20px;
+        }
+        
+        .product-info-image {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        
+        img {
+            width: 60px;
+            height: 60px;
+            border-radius: 4px;
+        }
+        
+        .text {
+            line-height: 1px;
+            margin: auto;
+            margin-left: 10px;
+            text-align: left;
+            justify-self: center;
+        }
+        
+        .product-name {
+            color: blue;
+        }
+        
+        .text>p {
+            font-size: small;
+        }
+        
+        .quantity-btn {
+            display: flex;
+            justify-content: left;
+            align-items: center;
+        }
+        
+        .count-btn {
+            width: 20px;
+            height: 20px;
+            border: none;
+            color: mediumblue;
+            background-color: white;
+        }
+        
+        .count-input {
+            max-width: 50px;
+            height: 30px;
+            text-align: center;
+        }
+        
+        .product-price {
+            display: flex;
+            justify-content: left;
+            align-items: center;
+        }
+        
+        .product-price-subtotal {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .product-code {
+            color: gray;
+            text-transform: capitalize;
+        }
+        
+        .summary-total {
+            display: flex;
+            justify-content: space-between;
+            margin-right: 10px;
+            margin-top: 10px;
+        }
+        
+        .summary-total-items {
+            color: gray;
+        }
+        
+        .summary-total-discount-price {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        
+        .summary-total-discount {
+            display: flex;
+            justify-content: space-between;
+            margin-right: 10px;
+            margin-bottom: -5px;
+            line-height: 1px;
+        }
+        
+        .summary-total-items-discount {
+            color: gray;
+            font-size: 14px;
+        }
+        
+        .checkout {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        
+        .checkout-cost {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px;
+            position: relative;
+        }
+        
+        .checkout-btn {
+            display: flex;
+            position: relative;
+        }
+        
+        .checkout-button {
+            width: 100%;
+            margin-right: 20px;
+            margin-left: 20px;
+            margin-bottom: 1px;
+            height: 40px;
+            border-radius: 5px;
+            background-color: #24a0ed;
+            color: white;
+            font-size: 18px;
+        }

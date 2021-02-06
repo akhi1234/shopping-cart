@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Shopping-cart-challenge</title>
+</head>
+
+<body>
+    <div class="root">
+        <div class="product-info">
+            <h3>Shopping cart</h3>
+            <hr>
+            <div class="product-info-name">
+                <div>Product Details</div>
+                <div>Quantity</div>
+                <div>Price</div>
+                <div class="subtotal">Total</div>
+            </div>
+            <div class="product-info-details">
+                <div class="product-info-image">
+                    <div>
+                        <img src="shirt.png" alt="cap">
+                    </div>
+                    <div class="text">
+                        <h5 class="product-name">Shirt</h5>
+                        <p class="product-code">Product code X7R2OPX</p>
+                    </div>
+                </div>
+                <div class="quantity-btn">
+                    <button class="count-btn subtract">-</button>
+                    <input class="count-input" value="3" min="0">
+                    <button class="count-btn add">+</button></div>
+                <div class="product-price">20 €</div>
+                <div class="product-price-subtotal">60 €</div>
+            </div>
+            <div class="product-info-details">
+                <div class="product-info-image">
+                    <div>
+                        <img src="mug.png" alt="cap">
+                    </div>
+                    <div class="text">
+                        <h5 class="product-name">Mug</h5>
+                        <p class="product-code">Product code X7R2OPX</p>
+                    </div>
+                </div>
+                <div class="quantity-btn">
+                    <button class="count-btn subtract">-</button>
+                    <input class="count-input" value="4" min="0">
+                    <button class="count-btn add">+</button></div>
+                <div class="product-price">7.5 €</div>
+                <div class="product-price-subtotal">30 €</div>
+            </div>
+            <div class="product-info-details">
+                <div class="product-info-image">
+                    <div>
+                        <img src="cap.png" alt="cap">
+                    </div>
+                    <div class="text">
+                        <h5 class="product-name">Cap</h5>
+                        <p class="product-code">Product code X7R2OPX</p>
+                    </div>
+                </div>
+                <div class="quantity-btn">
+                    <button class="count-btn subtract">-</button>
+                    <input class="count-input" value="4" min="0">
+                    <button class="count-btn add">+</button></div>
+                <div class="product-price ">5 €</div>
+                <div class="product-price-subtotal">20 €</div>
+            </div>
+        </div>
+        <div class="summary-info">
+            <h3>Order Summary</h3>
+            <hr>
+            <div class="summary-total">
+                <div class="summary-total-items">
+                    <p>11 Items</p>
+                </div>
+                <div class="summary-total-price">
+                    <h3>110 €</h3>
+                </div>
+            </div>
+            <hr>
+
+            <div class="summary-total-discount-price">
+                <p style="font-size: 16px;color: gray;text-transform: uppercase;">Discounts</p>
+                <div class="summary-total-discount">
+                    <div class="summary-total-items-discount">
+                        <p>2x1 cap offer</p>
+                    </div>
+                    <div class="summary-total-price-discount">
+                        <p>-10 €</p>
+                    </div>
+                </div>
+                <div class="summary-total-discount">
+                    <div class="summary-total-items-discount">
+                        <p>x4 mug offer</p>
+                    </div>
+                    <div class="summary-total-price-discount">
+                        <p>-2 €</p>
+                    </div>
+                </div>
+                <div class="summary-total-discount">
+                    <div class="summary-total-items-discount">
+                        <p>x3 shirt offer</p>
+                    </div>
+                    <div class="summary-total-price-discount">
+                        <p>-3 €</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="checkout">
+                <hr>
+                <div class="checkout-cost">
+                    <div>
+                        <p>Total Cost</p>
+                    </div>
+                    <div>
+                        <p>95€</p>
+                    </div>
+                </div>
+                <div class="checkout-btn">
+                    <button class="checkout-button" type="submit">Checkout</button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
